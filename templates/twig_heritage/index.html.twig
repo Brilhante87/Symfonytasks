@@ -1,0 +1,16 @@
+{% extends 'heritage.html.twig' %}
+
+{% block titreDuDocument %}
+Ma page exemple
+{% endblock %} 
+
+{% block corpDuDocument %}
+        {{
+            parent()
+        }} 
+        <ol>
+            <li>Nouveau contenu</li>
+            <li>Nouveau contenu 1 </li>
+            <li>Nouveau contenu 2 </li>
+        </ol>
+    {% endblock %}
