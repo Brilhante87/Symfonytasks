@@ -24,7 +24,7 @@ class PrimeiroController extends AbstractController
        return $this->render(view: 'primeiro/hellow.html.twig', parameters: [
             'nom' => $name,
              'prenom' => $firstname,
-             'path' => '       '
+
         ]);
 
      

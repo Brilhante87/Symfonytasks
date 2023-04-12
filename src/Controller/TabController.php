@@ -25,6 +25,7 @@ class TabController extends AbstractController
     public function users(): Response
     {
         $users = [
+            ['firstname' => 'Ouridade', 'name' => 'da Silva', 'age' => 35],
             ['firstname' => 'aymen', 'name' => 'selaouti', 'age' => 39],
             ['firstname' => 'Mary', 'name' => 'selaouti', 'age' => 26],
             ['firstname' => 'jully', 'name' => 'selaouti', 'age' => 59]

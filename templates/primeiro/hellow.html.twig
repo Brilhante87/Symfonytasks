@@ -1,10 +1,7 @@
-{% extends 'template.html.twig' %}
+{#{% extends 'template.html.twig' %}#}
 {% block body %}
     <div>
-        <h1>Hello {{ nom|capitalize }} {{ prenom|capitalize }}</h1>
-        <p>
-          Praticando o symfony6 ate a data presente {{ "now"|date("d/m/Y") }}
-        </p>
-        <img src="{{ asset('assets/images/')}}" alt="image">
+        <h1>Bonjour {{ nom|capitalize }} {{ prenom|capitalize }}</h1>
+      
     </div>
  {% endblock %}
